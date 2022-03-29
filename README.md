@@ -16,8 +16,8 @@ Model - Service - API- Menu
 -Adminstrator:\
 1.Enter room info
 
-2.Review all reservation
+2.Review all reservations
 
-3.Review all customer accounts info
+3.Review all customer account info
 
-4.review all room
+4.Review all room
