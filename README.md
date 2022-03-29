@@ -1,4 +1,4 @@
-# UdacityCourse-Hotel Reservation APP/
+# UdacityCourse-Hotel Reservation APP
  *ALl code is not allowed to download nor be used for any commercial purpose!!*
 
 ## APP Structure: 
