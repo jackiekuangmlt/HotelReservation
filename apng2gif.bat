@@ -17,7 +17,7 @@ mkdir temp >nul 2>nul
 for /F %%i in ('dir /b^|findstr .png$') do (
 	echo 【正在处理 %%i 】
 	echo. >nul
-	if %whitebgd%==1 (
+	if %whitebgd%==0 (
 		REM 加白底输出帧。来自 esterTion
 		%ffmpeg% -hide_banner -loglevel quiet -i "%%i" "temp\%%~ni_%%3d.png" -f image2 -filter_complex "pad=iw*2:ih:iw:ih:white,crop=iw/2:ih:0:0[back];[back][0]overlay=0:0" >nul 2>nul
 	) else (
